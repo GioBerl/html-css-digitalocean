@@ -1,0 +1,45 @@
+/* ! da assegnare ai div col- */
+.padding-lt-header {
+    padding-left: 30px;
+}
+
+.padding-rt-header {
+    padding-right: 15px;
+}
+
+.padding-vt-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* ! ------------------------- */
+
+ul {
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+}
+
+navbar-default {
+    margin-bottom: 0;
+}
+
+#header-top .btn {
+    background-color: #00d7d2;
+    cursor: unset;
+}
+
+#header-top .banner {
+    cursor: pointer;
+    color: rgb(91, 105, 135);
+    display: inline-block;
+}
+
+#header-top .banner:hover {
+    color: #0069ff;
+}
+
+#header-bottom .navbar-brand {
+    fill: blue;
+}
