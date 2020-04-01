@@ -1,28 +1,18 @@
-/* ! da assegnare ai div col- */
-.padding-lt-header {
-    padding-left: 30px;
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
 }
 
-.padding-rt-header {
-    padding-right: 15px;
+header {
+    width: 100%;
+    position: fixed;
 }
 
-.padding-vt-header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-/* ! ------------------------- */
-
-ul {
-    margin-bottom: 0;
-}
-
-p {
-    margin: 0;
-}
-
-navbar-default {
-    margin-bottom: 0;
+#header-top {
+    background-color: white;
 }
 
 #header-top .btn {
@@ -40,6 +30,157 @@ navbar-default {
     color: #0069ff;
 }
 
-#header-bottom .navbar-brand {
+#header-top ul {
+    margin-bottom: 0;
+}
+
+#header-top p {
+    margin: 0;
+}
+
+
+/* HEADER-BOTTOM */
+
+
+
+
+#header-bottom .container-fluid {
+    height: 65px;
+}
+
+.logo-svg {
     fill: blue;
+    cursor: pointer;
+}
+
+svg {
+    margin-top: 15px;
+}
+
+.navbar-left {
+    margin-left: 50px;
+}
+
+#header-bottom .header-bottom-list>a {
+    color: #031b4e;
+    margin-top: 7px;
+}
+
+#header-bottom .header-bottom-list>a:focus,
+#header-bottom .header-bottom-list>a:hover {
+    color: #0069ff;
+    background-color: transparent;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0;
+}
+
+
+/* DA COLLASSATO */
+.navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #6890ff;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+/* ------------------- */
+
+.navbar-btn {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    /* margin-right: 15px; */
+}
+
+.btn-default {
+    color: #0069ff;
+    background-color: #fff;
+    border-color: #0069ff;
+}
+
+.btn-default:hover {
+    color: white;
+    background-color: #0069ff;
+    border-color: #0069ff;
+}
+
+
+/* JUMBOTRON SECTION */
+section#jumbotron {
+    background-image: url(img/sfondo.jpeg);
+    background-size: cover;
+    height: 300px;
+    padding-top: 100px;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+
+    .navbar-toggle {
+        display: block;
+        float: right;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    /* tolgo righina sotto */
+    .navbar-collapse {
+        display: none;
+    }
+
+    /* ? senno' si attacca a sinistra */
+    .container-fluid>.navbar-header {
+        margin-left: 0;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    .navbar-default {
+        background-color: white;
+        border-color: white;
+    }
+
+    .logo-svg {
+        fill: #0069ff;
+    }
+
+    .navbar-default::after {
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(3, 27, 78, .1);
+        content: "";
+        display: block;
+        height: 4px;
+        margin-top: -4px;
+        width: 100%;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-header {
+        float: left;
+    }
 }
