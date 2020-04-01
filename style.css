@@ -3,6 +3,16 @@
     padding-bottom: 100px;
 }
 
+.padding-section-sm {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.padding-section-md {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
 .margin-form {
     margin-bottom: 20px;
 }
@@ -65,6 +75,10 @@ header {
 
 svg {
     margin-top: 15px;
+}
+
+.navbar {
+    border-radius: 0;
 }
 
 .navbar-left {
@@ -133,7 +147,7 @@ section#jumbotron {
 }
 
 #jumbotron h1 {
-    font-size: 55px;
+    font-size: 50px;
     margin-bottom: 30px;
 }
 
@@ -153,6 +167,33 @@ section#jumbotron {
 
 .jumbo-titles {
     padding-top: 60px;
+}
+
+
+/* SECTION INNOVATIVE */
+
+#innovative {
+    background-color: #F3F5F9;
+}
+
+#innovative img {
+    object-fit: contain;
+    width: 100%; 
+    max-height: 100px;
+}
+
+.images-wrapper {
+    max-height: 100px;
+    line-height: 100px;
+}
+
+#innovative p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#innovative h3 {
+    font-size: 15px;
 }
 
 
@@ -187,6 +228,26 @@ section#jumbotron {
 @media (max-width: 992px) {
     #jumbotron h1 {
         font-size: 35px;
+    }
+
+    .container-fluid > .navbar-header {
+        display: none;
+    }
+
+    #innovative img {
+        object-fit: contain;
+        width: 75%; 
+        height: 200px;
+        line-height: 200px;
+    }
+
+    .padding-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #jumbotron form {
+        padding: 20px 10px;
     }
 }
 
