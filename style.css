@@ -271,24 +271,19 @@ section#jumbotron {
 }
 
 .carousel svg.left-icon {
-    width: 50px;
+    width: 20px;
     position: absolute;
     top: 50%;
-    left: -5%;
+    left: -1%;
     transform: translateY(-50%);
 }
 
 .carousel svg.right-icon {
-    width: 50px;
+    width: 20px;
     position: absolute;
     top: 50%;
-    right: -5%;
+    right: -1%;
     transform: translateY(-50%);
-}
-
-.carousel .left-arrow {
-    height: 100%;
-    line-height: 100%;
 }
 
 .carousel-indicators i {
