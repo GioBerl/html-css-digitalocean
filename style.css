@@ -303,13 +303,18 @@ section#jumbotron {
     background-size: cover;
 }
 
+#service .row-service {
+    width: 100%;
+}
+
+
 #service .row-service:not(:last-child) {
     border-bottom: 1px solid rgba(208, 210, 214, 0.473);
     
 }
 
 .padding-rows-service {
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 #service .city {
