@@ -37,6 +37,10 @@
     background-color: #F3F5F9;
 }
 
+.bg-blue {
+    background-color: #031B4E;
+}
+
 .text-white {
     color: white;
 }
@@ -47,6 +51,10 @@
 
 .text-bold {
     font-weight: bold;
+}
+
+.text-fluo {
+    color: #00d7d2;
 }
 
 header {
@@ -288,6 +296,30 @@ section#jumbotron {
     color: blue;
 }
 
+
+/* SERVICE SECTION */
+#service {
+    background-image: url(img/planisfero.svg);
+    background-size: cover;
+}
+
+#service .row-service:not(:last-child) {
+    border-bottom: 1px solid rgba(208, 210, 214, 0.473);
+    
+}
+
+.padding-rows-service {
+    padding: 10px 0;
+}
+
+#service .city {
+    font-size: smaller;
+    color: rgba(208, 210, 214, 0.473);
+}
+
+#service .text-fluo:hover:focus {
+    color: #005fe6;
+}
 
 
 
