@@ -253,9 +253,29 @@ section#jumbotron {
 /* SECTION DESIGNED */
 
 /* CAROUSEL */
+.carousel {
+    position: relative;
+}
+
 .carousel img {
     object-fit: cover;
     width: 100%;
+}
+
+.carousel svg.left-icon {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    transform: translateY(-50%);
+}
+
+.carousel svg.right-icon {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    transform: translateY(-50%);
 }
 
 .carousel .left-arrow {
@@ -264,6 +284,7 @@ section#jumbotron {
 }
 
 .carousel-indicators i {
+    font-size: smaller;
     color: blue;
 }
 
@@ -299,6 +320,11 @@ section#jumbotron {
     /* ? senno' si attacca a sinistra */
     .container-fluid>.navbar-header {
         margin-left: 0;
+    }
+
+    .carousel svg.left-icon,
+    .carousel svg.right-icon {
+        display: none;
     }
 }
 
