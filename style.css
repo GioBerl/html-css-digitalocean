@@ -199,12 +199,25 @@ section#jumbotron {
 
 /* DEPLOY SECTION */
 
+.text-grey {
+    color: rgba(3, 27, 78, 0.7);
+}
 
-
-#deploy ul {
+#deploy ul li:first-child {
     list-style: none;
-    border-left: 1px solid grey;
-    padding-left: 20px;
+    border-left: 3px solid #0069ff;
+    padding: 20px 0 20px 40px;
+}
+
+#deploy ul li:not(:first-child) {
+    list-style: none;
+    border-left: 2px solid #e5e8ed;
+    padding: 20px 0 20px 40px;
+}
+
+#deploy ul li:first-child a{
+    font-size: 20px;
+    color: black;
 }
 
 #deploy ul li a{
@@ -213,6 +226,7 @@ section#jumbotron {
 
 #deploy ul a:hover {
     color: black;
+    text-decoration: none;
 }
 
 
