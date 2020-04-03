@@ -1,3 +1,9 @@
+.overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
 .padding-section {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -94,7 +100,8 @@ header {
 #header-top .banner {
     cursor: pointer;
     color: rgb(91, 105, 135);
-    display: inline-block;
+    /* ! se gli do display inline-block non funziona overflow */
+    display: inline;
 }
 
 #header-top .banner:hover {
