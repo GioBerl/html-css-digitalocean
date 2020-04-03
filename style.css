@@ -2,7 +2,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
+}
 
 .padding-section {
     padding-top: 150px;
@@ -253,6 +253,23 @@ section#jumbotron {
     transform: translateY(-50%);
 }
 
+#jumbotron .border-light {
+    border: 1px solid rgba(0,105,255,.2);
+}
+
+.padding-btn-light {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bg-btn-create {
+    background-color: #0069ff;
+}
+
+.bg-btn-create:hover {
+    background-color: #1633ff;
+}
+
 .bg-light-blue {
     background: #f2f8ff;
 }
@@ -288,6 +305,10 @@ section#jumbotron {
 
 #innovative h3 {
     font-size: 15px;
+}
+
+#innovative .business {
+    padding-top: 40px;
 }
 
 
