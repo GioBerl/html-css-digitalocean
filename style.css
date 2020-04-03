@@ -13,6 +13,16 @@
     padding-bottom: 60px;
 }
 
+.padding-btn-vert {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padding-btn-hz {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .margin-top {
     margin-top: 30px;
 }
@@ -319,6 +329,18 @@ section#jumbotron {
 
 #service .text-fluo:hover:focus {
     color: #005fe6;
+}
+
+
+/* GET STARTED SECTION */
+#get-started {
+    background-color: blue;
+    background-image: url(img/get-started/bg-sfondo.jpg);
+}
+
+#get-started .btn:hover {
+    background-color: hsla(0,0%,100%,.8);
+    color: #0069ff;
 }
 
 
