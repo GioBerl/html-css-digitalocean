@@ -227,6 +227,44 @@ section#jumbotron {
     padding-top: 60px;
 }
 
+#jumbotron .lateral-lines {
+    position: relative;
+}
+
+#jumbotron .lateral-lines::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.274);
+    width: calc((100% - 150px) / 2);
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#jumbotron .lateral-lines::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.274);
+    width: calc((100% - 150px) / 2);
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.bg-light-blue {
+    background: #f2f8ff;
+}
+
+.bg-light-blue:hover {
+    background: #d5e4f7;
+    color: black;
+}
+
+.text-dark {
+    color: black;
+}
 
 /* SECTION INNOVATIVE */
 
